@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.9
     - numpy
-    - tensorflow >=2.9.3
+    - tensorflow >=2.9.3,<=2.15.0
     - earthengine-api
     - python-dotenv >=1.0.0
     - matplotlib-base
