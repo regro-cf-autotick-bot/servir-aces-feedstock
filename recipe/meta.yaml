@@ -1,5 +1,5 @@
 {% set name = "servir-aces" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/servir_aces-{{ version }}.tar.gz
-  sha256: 3b506e3279a6b88fec37a58d063e36bc3fbe7328fd13ac29966d9380b07e1948
+  sha256: 1f89e5eb3e5bfad9bcf0b26898f1f65926ac222bf6942717ef0e4bfcde08070b
 
 build:
   noarch: python
